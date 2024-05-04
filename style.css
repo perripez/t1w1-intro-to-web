@@ -1,4 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 h1{
     color: lightsteelblue;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:blueviolet;
+    font-size: 3rem;
+}
+
+h2{
+    color:blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightsteelblue;
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#footer_p{
+    background-color:blueviolet;;
+    color: lightsteelblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li:nth-child(2n){
+    background-color: lightsteelblue;
+    color: blueviolet;
+}
+
+li{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: blueviolet;
+    color: lightsteelblue;
+}
+
+img{
+    max-width: 100vw;
 }
